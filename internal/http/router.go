@@ -12,6 +12,7 @@ func SetRouter(r *gin.Engine) {
 		ctx.String(http.StatusOK, "pong")
 	})
 	r.GET("/ok", func(ctx *gin.Context) {
+
 		ctx.String(http.StatusOK, "ok")
 	})
 }
